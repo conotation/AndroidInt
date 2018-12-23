@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tutorial03</string>
+    <string name="button1">button1</string>
+    <string name="button2">button2</string>
+    <string name="button3">button3</string>
+    <string name="button">Button</string>
+    <string name="kName">이름</string>
+    <string name="name">Name</string>
+</resources>

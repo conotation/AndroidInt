@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/button1" />
+
+    <!--
+        centerInParent 부모의 중앙에 배치 (true, false)
+     -->
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/button2" />
+
+    <!--
+        alignParentEnd 부모의 끝에 배치(오른쪽에 배치)
+        alignParentBottom btn1의 아래에 배치
+        (right = end)
+     -->
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn1"
+        android:layout_toEndOf="@id/btn1"
+        android:text="@string/button3" />
+
+    <!--
+        layout above btn1의 위에 배치
+        layout toEndOf btn1의 끝에 배치(오른쪽에 배치)
+        (right = end)
+   -->
+
+</RelativeLayout>
