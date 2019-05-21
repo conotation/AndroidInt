@@ -1,20 +1,36 @@
 ﻿# 안드로이드 소수전공
 
+1. LinearLayout, Relative
+    * A4
+
+2. TextView, ImageView, button, EditText
+    * onClick, Id, Toast
+
+3. Intent
+    * SheardPref
+    * put, get Intent
+
+4. ListView
+    * customListView
+
+~~~~
+
 1. Tutorial01
- - Hello World
+    * Hello World
 
 2. Tutorial02
- - LinearLayout 배치 연습
+    * LinearLayout 배치 연습
+    * 종이 A4 시리즈
 
 3. Tutorial03
- - RelativeLayout, TextView, ImageView, Button
- - onClick, Intent, Toast
+    * RelativeLayout, TextView, ImageView, Button, EditText
+    * onClick, Intent, Toast
 
 4. Tutorial04
- - ~~카메라, 권한~~ --> camera_ex
+    * ~~카메라, 권한~~ --> camera_ex
 
 5. Tutorial05
- - Intent 데이터넘기기, 라이프사이클, Flag 관리
+    * Intent 데이터넘기기, 라이프사이클, Flag 관리
  - --> intent_ex, sharedPref_ex
 
 6. Tutorial06
@@ -25,9 +41,6 @@
  - ListView, customView
  - --> listView_ex
 
-8.
- - 파일탐색기
-
 * * *
 
 ### 0_ 
@@ -37,3 +50,5 @@
  - 커스텀 뷰
  - RecylcerView
  - Retrofit
+
+* 참고자료 https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf
